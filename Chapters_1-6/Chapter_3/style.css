@@ -1,0 +1,12 @@
+body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: papayawhip;
+    color: rgb(0,0,120);
+}
+
+p{
+    /*color: rgba(255,0,0,0.4); adds transparency*/
+    color: #F00; /*this is shorthand for FF00000*/
+}
