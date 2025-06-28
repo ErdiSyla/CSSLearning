@@ -24,7 +24,7 @@ body {
     align-items: center;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    flex-flow is shorthand for flex-direction and flex-wrap
+    /*flex-flow is shorthand for flex-direction and flex-wrap*/
     flex-flow: row-reverse nowrap;
     align-content: space-evenly;
 }
