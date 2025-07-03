@@ -72,7 +72,7 @@ header {
 
 :is(header:hover, header:focus-within) .menu-icon{
     background-color: transparent;
-    transform: rotate(720deg);
+    transform: rotate(360deg);
 }
 
 :is(header:hover, header:focus-within) .menu-icon::before{
