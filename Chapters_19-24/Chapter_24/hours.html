@@ -6,34 +6,28 @@
     <meta name="author" content="Erdi Syla">
     <meta name="description" content="Store Hours for the Little Taco Shop">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
     <title>LTS Hours</title>
 </head>
 
 <body>
 <header class="header">
-    <h1 class="header__h1">Little Taco Shop Hours</h1>
+    <h1 class="header__h1">Little Taco Shop</h1>
     <nav class="header__nav">
         <ul class="header__ul">
             <li>
                <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="index.html/#menu">Menu</a>
+                <a href="index.html#menu">Menu</a>
             </li>
             <li>
                 <a href="contact.html">Contact</a>
             </li>
             <li>
-                <a href="index.html/#about">About</a>
+                <a href="about.html">About</a>
             </li>
         </ul>
-        <figure>
-            <img src="../Chapter_24/birria_tacos.webp"
-                 width="300" height="300" title="We love trays of tacos!" alt="A Tray of Tasty Tacos">
-            <figcaption>
-                A Tray of Tasty Tacos
-            </figcaption>
-        </figure>
     </nav>
 </header>
 
@@ -47,9 +41,10 @@
     </figure>
 </section>
 
-<main>
-    <article>
+<main class="main">
+    <article class="main__article">
         <section>
+            <h2>Hours</h2>
             <p>We are open 7 days a week!</p>
             <dl>
                 <dt>Sunday-Thursday</dt>
@@ -57,15 +52,13 @@
                 <dt>Friday-Saturday</dt>
                 <dd>11am-11pm</dd>
             </dl>
-            <p>
-                <a href="#">Back to Top</a>
-            </p>
         </section>
     </article>
 </main>
-<hr>
-<footer>
-    <p>Copyright &copy; The Little Taco Shop</p>
+<footer class="footer">
+    <p>
+        <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+        <span class="nowrap">The Little Taco Shop</span></p>
 </footer>
 </body>
 </html>
