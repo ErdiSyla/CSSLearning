@@ -36,7 +36,8 @@ body{
     background-repeat: repeat, no-repeat;
     background-position: left center;*/
     background: repeat left center url('Images/bubbles.png'),
-    no-repeat linear-gradient(to left, steelblue, purple, #fff);
+    repeat linear-gradient(340deg, steelblue, purple, #fff);
+    /*could also be to top , to bottom, to right, to left*/
     background-size: 20%, auto;
 }
 
@@ -92,7 +93,7 @@ h1 {
     font-size: 18rem;
     text-align: center;
     background-image: url(Images/scenic-image.jpg);
-    background-size: 100%;
+    background-size: 35%;
     text-transform: uppercase;
     -webkit-background-clip: text;
     background-clip: text;

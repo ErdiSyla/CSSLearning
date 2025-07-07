@@ -50,8 +50,6 @@ body {
 .relative{
     background-color: red;
     position: relative;
-    top: 300px;
-    left: 100px;
 }
 
 .fixed {

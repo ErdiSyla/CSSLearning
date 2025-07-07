@@ -121,7 +121,7 @@ footer {
   text-align: center;
 }
 
-.card figcaption::after{
+.card:not(#food2) figcaption::after{
     content: ' hello';
 }
 

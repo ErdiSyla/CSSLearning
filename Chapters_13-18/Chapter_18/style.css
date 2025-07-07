@@ -180,7 +180,6 @@ footer {
   }
 
   .card {
-    /* Remove calc() - min() supports math! */
     width: min(33% - 0.25rem, 200px);
   }
 
